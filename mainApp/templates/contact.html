@@ -1,0 +1,96 @@
+{%extends "index.html"%}
+{%load static%}
+{%block body%}
+
+        <!-- :: Breadcrumb Header -->
+        <section class="breadcrumb-header style-2" id="page" style="background-image: url('{%static 'assets/images/gofresh/f11.webp'%}')">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="banner">
+                            <h1>contact US</h1>
+                            <ul>
+                                <li><a href="/">Home</a></li>
+                                <li><i class="fas fa-angle-right"></i></li>
+                                <li>contact US</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+		
+		<!-- :: contact us -->
+		<div class="contact-us py-100">
+            <div class="container">
+                <div class="contact-info-content">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="contact-box">
+                                <i class="ar-icons-call"></i>
+                                <div class="box">
+                                    <a class="phone" href="tel:+918920833459">+918920833459</a>
+                                    <!-- <a class="phone" href="tel:01029134630">010291 34630</a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="contact-box">
+                                <i class="ar-icons-email"></i>
+                                <div class="box">
+                                    <a class="mail" href="mailto:DMac@qq.com">team@gofresh.net.in</a>
+                                    <!-- <a class="mail" href="mailto:DMac@qq.com">team@gofresh.net.in</a> -->
+                                    <!-- <a class="mail" href="mailto:mailbox@ar-coder.com">MailBox@AR-Coder.com</a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="contact-box">
+                                <i class="ar-icons-location"></i>
+                                <div class="box">
+                                    <p>New Delhi</p>
+                                    <!-- <p>Zhejiang Province, China.</p> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <!-- :: Map -->
+                        <div class="map-box">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3478.9004848300315!2d120.09038507386994!3d29.31459465278439!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x344953908983bcbf%3A0x17e876a8b964f341!2zQmluIFdhbmcgTHUsIFlpIFd1IFNoaSwgSmluIEh1YSBTaGksIFpoZSBKaWFuZyBTaGVuZywg4KSa4KWA4KSo!5e0!3m2!1shi!2sin!4v1712390745780!5m2!1shi!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+						<div class="add-comments">
+							<form class="inner-add-comments form-contact-2">
+								<div class="row">
+									<div class="col-md-6 inner-add-comments-box">
+										<input type="text" name="name" autocomplete="off" placeholder="Name" required>
+									</div>
+                                    <div class="col-md-6 inner-add-comments-box">
+										<input type="tel" name="phone" autocomplete="off" placeholder="Phone Number" pattern="[0-9]{10}" required>
+									</div>
+									<div class="col-md-6 inner-add-comments-box">
+										<input type="Email" name="email" autocomplete="off" placeholder="Email" required>
+									</div>
+									<div class="col-md-6 inner-add-comments-box">
+										<input type="text" name="subject" autocomplete="off" placeholder="Subject" required>
+									</div>
+									<div class="col-md-12 inner-add-comments-box">
+										<textarea name="message" placeholder="Your Message Here" required></textarea>
+									</div>
+									<div class="col-md-12 inner-add-comments-box last">
+										<button class="btn-1 btn-3 submit" type="submit"><span>Submit</span></button>
+										<span class="out-message"></span>
+									</div>
+								</div>
+							</form>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+		{%endblock%}

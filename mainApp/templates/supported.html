@@ -1,0 +1,184 @@
+{%extends "index.html"%}
+{%load static%}
+{%block body%}
+        
+        <!-- :: Breadcrumb Header -->
+        <section class="breadcrumb-header" id="page" style="background-image: url('{%static 'assets/images/gofresh/f10.jpg'%}')">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="banner">
+                            <h1>Supported By</h1>
+                            <ul>
+                                <li><a href="/">Home</a></li>
+                                <li><i class="fas fa-angle-right"></i></li>
+                                <li>Supported By</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+		
+		<!-- :: About US -->
+
+        <style>
+            
+            @media screen and (min-width: 991px) {
+                .about-us-img-box{
+                    width: 300px;
+                }
+                .about-us-img-box .img-box {
+                    width: 100%;
+                    background-size: cover; /* This ensures the image covers the entire container */
+                    background-position: center; /* This centers the image within the container */
+                }
+            }            
+        </style>
+
+        <section class="about-us py-100" id="start">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="about-us-img-box">
+                            <div class="img-box" style="background-image: url('{%static 'assets/images/gofresh/s3.png'%}')"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="about-us-text-box">
+                            <div class="sec-title">
+                                <h1 style="margin: 20px 0;">Supported by</h1>
+                                <h2 style="margin: 10px 0;">STPI</h2>
+                                <p class="sec-explain">STPI (Software Technology Parks of India) is an autonomous society under the Ministry of Electronics and Information Technology (MeitY) associated with Atal innovation Mission (AIM).</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row" style="margin-top: 60px;">
+                    
+                    <div class="col-lg-8">
+                        <div class="about-us-text-box">
+                            <div class="sec-title">
+                                <h1 style="margin: 20px 0;">Supported by</h1>
+                                <h2 style="margin: 10px 0;">Nexus</h2>
+                                <p class="sec-explain">Nexus – Startup Hub @ American Center is a collaboration between the U.S. Embassy, New Delhi and ACIR (Alliance For Commercialization and Innovation Research)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="about-us-img-box">
+                            <div class="img-box" style="background-image: url('{%static 'assets/images/gofresh/s2.png'%}')"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row" style="margin-top: 60px;">
+                    <div class="col-lg-4">
+                        <div class="about-us-img-box">
+                            <div class="img-box" style="background-image: url('{%static 'assets/images/gofresh/s1.png'%}')"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="about-us-text-box">
+                            <div class="sec-title">
+                                <h1 style="margin: 20px 0;">Supported by</h1>
+                                <h2 style="margin: 10px 0;">IIIT Delhi Innovation & Incubation Center</h2>
+                                <p class="sec-explain">IIIT Delhi Innovation & Incubation Center (Indraprastha Institue of Information technology) is associated with Department of Science & Technology (GOI) & Meity Startup Hub.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row" style="margin-top: 40px;">
+                    <div class="col-sm-12">
+                        <h1 style="margin-bottom: 40px;">We Support</h1>
+                        <center><img width="100%" src="{%static 'assets/images/gofresh/support.png'%}" alt=""></center>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </section>
+
+        <!-- <section class="team py-100-70">
+            <div class="container">
+                <div class="sec-title">
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <h2>Expert Members</h2>
+                            <h3>Qualified Staff Of Experts</h3>
+                        </div>
+                        <div class="col-lg-5 d-flex align-items-center">
+                            <p class="sec-explain">Our highly skilled team is connected to a network of prestigious government organizations, Incubators, engineering universities, high-tech firms, organic agri-food businesses and a pool of mentors & investors having wide experience in the industry to guide us to the right path.</p>
+                            <p>We believe anything is possible if people try their best, are humble & look for ways to get better all the time.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="team-box">
+                            <div class="img-box">
+                                <img class="img-fluid" src="{%static 'assets/images/team/Dishant.jpg'%}" alt="01 team">
+                                <div class="img-box-hover">
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-behance"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="text-box text-center">
+                                <h5><a href="">Dishant Garg</a></h5>
+                                <span>Account Manager</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="team-box">
+                            <div class="img-box">
+                                <img class="img-fluid" src="{%static 'assets/images/team/Vikash.jpg'%}" alt="02 team">
+                                <div class="img-box-hover">
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-behance"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="text-box text-center">
+                                <h5><a href="">Vikash Gupta</a></h5>
+                                <span>Founder &amp; CEO</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="team-box">
+                            <div class="img-box">
+                                <img class="img-fluid" src="{%static 'assets/images/team/JJ.jpg'%}" alt="03 team">
+                                <div class="img-box-hover">
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-behance"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="text-box text-center">
+                                <h5><a href="">Mrityunjay Baksh Singh</a></h5>
+                                <span>Sener Engineer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        
+        {%endblock%}

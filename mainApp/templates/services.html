@@ -1,0 +1,336 @@
+{%extends "index.html"%}
+{%load static%}
+{%block body%}
+        
+        <!-- :: Breadcrumb Header -->
+        <section class="breadcrumb-header" id="page" style="background-image: url('{%static 'assets/images/film/ba8.jpg'%}')">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8"> 
+                        <div class="banner">
+                            <h1>Services</h1>
+                            <ul>
+                                <li><a href="/">Home</a></li>
+                                <li><i class="fas fa-angle-right"></i></li>
+                                <li>Services</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+		
+		<!-- :: About US -->
+        <!-- <section class="about-us home-2 py-100" id="start">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <div class="about-us-text-box">
+                            <div class="sec-title">
+                                <h2>Welcome to Gazolin</h2>
+                                <h3>Best technology and awesome service we offer.</h3>
+                                <p class="sec-explain">Gazolin Are A Industry &amp; Manufacturing Services Provider Institutions. Suitable For Factory, Manufacturing, Industry, Engineering, Construction And Any Related Industry Care Field.</p>
+                            </div>
+							<div class="features-style-2">
+								<div class="row">
+									<div class="col-sm-6">
+										<div class="item">
+											<i class="ar-icons-toolbox"></i>
+											<div class="content-box">
+												<h5>Best Certified<br>Solutions</h5>
+												<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.It is a long established fact</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-sm-6">
+										<div class="item">
+											<i class="ar-icons-trolley"></i>
+											<div class="content-box">
+												<h5>Fast Rapid<br>delivery</h5>
+												<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.It is a long established fact</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<p class="about-quote">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim Magna, sed diam nonumy eirmod tempor invidunt ut lab ore et dolore magna aliquyam erat.</p>
+							<div class="about-btn">
+                                <a href="02_about-us.html" class="btn-1 btn-3"><span>More About Us</span></a>
+                            </div>
+                        </div>
+                    </div>
+					<div class="col-lg-5">
+                        <div class="about-us-img-box">
+							<div class="start-grow">
+								<i class="ar-icons-pallet-1"></i>
+								<h5>start growing with Gazolin</h5>
+								<a href="index.html">Book Now</a>
+							</div>
+                            <div class="img-box" style="background-image: url('{%static 'assets/images/about-us/02_about-us.jpg'%}')"></div>
+							<div class="about-qualified-employees">
+								<i class="ar-icons-conveyor-3"></i>
+								<div class="content">
+									<div class="counter employees-counter">1.888</div>
+									<div class="counter-name">Qualified Employees And Workers With Us</div>
+								</div>
+							</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        
+		<!-- :: Services -->
+        <section class="services home-2">
+			<div class="bg-section">
+                <div class="overlay overlay-2"></div>
+            </div>
+			<div class="container">
+				<div class="sec-title">
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <h2>Services we offer</h2>
+                            <h3>High quality services of multiple Industries</h3>
+                        </div>
+                        <div class="col-lg-5 d-flex align-items-center">
+                            <p class="sec-explain">Automotive film is a type of protective film applied to the exterior of vehicles to safeguard the paintwork from damage caused by road debris, stone chips, bug splatters, minor abrasions, and other environmental hazards.</p>
+                        </div>
+                    </div>
+                </div>
+				<div class="services-carousel owl-carousel owl-theme">
+                    <!-- <div class="services-carousel-item item-1">
+						<a href="02_services.html" class="services-item-img-box" style="background-image: url('{%static 'assets/images/services/01_services-item.jpg'%}')"><span></span></a>
+                        <div class="item-box">
+							<i class="ar-icons-tank"></i>
+							<div class="content-box">
+								<h4>Petroleum &amp; Gas <br>Energy</h4>
+								<p>Lorem Ipsum is simply text of the printing and typesetting industry. consectetur adipiscing.</p>
+								<a class="more" href="02_services.html">Read More</a>
+							</div>
+						</div>
+                    </div> -->
+					<div class="services-carousel-item item-2">
+						<a href="02_services.html" class="services-item-img-box" style="background-image: url('{%static 'assets/images/film/p5.jpg'%}')"><span></span></a>
+                        <div class="item-box">
+							<i class="ar-icons-worker"></i>
+							<div class="content-box">
+								<h4>Car Wrapping <br>Services</h4>
+								<!-- <p>Lorem Ipsum is simply text of the printing and typesetting industry. consectetur adipiscing.</p> -->
+								<a class="more" href="/car-wrapping">Read More</a>
+							</div>
+						</div>
+                    </div>
+					<div class="services-carousel-item item-3">
+						<a href="02_services.html" class="services-item-img-box" style="background-image: url('{%static 'assets/images/film/p4.jpg'%}')"><span></span></a>
+                        <div class="item-box">
+							<i class="ar-icons-factory"></i>
+							<div class="content-box">
+								<h4>Car Stikers <br>Services</h4>
+								<!-- <p>Lorem Ipsum is simply text of the printing and typesetting industry. consectetur adipiscing.</p> -->
+								<a class="more" href="/car-stickers">Read More</a>
+							</div>
+						</div>
+                    </div>
+					<div class="services-carousel-item item-4">
+						<a href="02_services.html" class="services-item-img-box" style="background-image: url('{%static 'assets/images/film/p9.jpg'%}')"><span></span></a>
+                        <div class="item-box">
+							<i class="ar-icons-factory-machine"></i>
+							<div class="content-box">
+								<h4>Car Protection <br>Services</h4>
+								<!-- <p>Lorem Ipsum is simply text of the printing and typesetting industry. consectetur adipiscing.</p> -->
+								<a class="more" href="/car-protections">Read More</a>
+							</div>
+						</div>
+                    </div>
+					<!-- <div class="services-carousel-item item-5">
+						<a href="02_services.html" class="services-item-img-box" style="background-image: url('{%static 'assets/images/services/05_services-item.jpg'%}')"><span></span></a>
+                        <div class="item-box">
+							<i class="ar-icons-conveyor"></i>
+							<div class="content-box">
+								<h4>Automotive <br>Manufacturing</h4>
+								<p>Lorem Ipsum is simply text of the printing and typesetting industry. consectetur adipiscing.</p>
+								<a class="more" href="02_services.html">Read More</a>
+							</div>
+						</div>
+                    </div>
+					<div class="services-carousel-item item-6">
+						<a href="02_services.html" class="services-item-img-box" style="background-image: url('{%static 'assets/images/services/06_services-item.jpg'%}')"><span></span></a>
+                        <div class="item-box">
+							<i class="ar-icons-conveyor-1"></i>
+							<div class="content-box">
+								<h4>Bridge <br>Constraction</h4>
+								<p>Lorem Ipsum is simply text of the printing and typesetting industry. consectetur adipiscing.</p>
+								<a class="more" href="02_services.html">Read More</a>
+							</div>
+						</div>
+                    </div> -->
+                </div>
+			</div>
+		</section>
+        
+        <!-- :: Team -->
+        <!-- <section class="team home-2 py-100-70">
+            <div class="container">
+                <div class="sec-title">
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <h2>Expert Members</h2>
+                            <h3>Qualified Staff Of Engineers</h3>
+                        </div>
+                        <div class="col-lg-5 d-flex align-items-center">
+                            <p class="sec-explain">Gazolin Are A Industry &amp; Manufacturing Services Provider Institutions. Suitable For Factory, Manufacturing, Industry, Engineering, Construction And Any Related Industry Care Field.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="team-box">
+                            <div class="img-box">
+                                <img class="img-fluid" src="assets/images/team/01_team.jpg" alt="01 team">
+                                <div class="img-box-hover">
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-behance"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="text-box text-center">
+                                <h5><a href="02_team.html">Eng Anwar Ramadan</a></h5>
+                                <span>Account Manager</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="team-box">
+                            <div class="img-box">
+                                <img class="img-fluid" src="assets/images/team/02_team.jpg" alt="02 team">
+                                <div class="img-box-hover">
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-behance"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="text-box text-center">
+                                <h5><a href="02_team.html">Eng Osama bakri</a></h5>
+                                <span>Founder &amp; CEO</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="team-box">
+                            <div class="img-box">
+                                <img class="img-fluid" src="assets/images/team/03_team.jpg" alt="03 team">
+                                <div class="img-box-hover">
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-behance"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="text-box text-center">
+                                <h5><a href="02_team.html">Eng Omnia Ramadan</a></h5>
+                                <span>Sener Engineer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+		
+        <!-- :: Blog -->
+        <!-- <section class="blog py-100-70">
+            <div class="container">
+                <div class="sec-title">
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <h2>Recent Articles</h2>
+                            <h3>Read All News</h3>
+                        </div>
+                        <div class="col-lg-5 d-flex align-items-center">
+                            <p class="sec-explain">Gazolin Are A Industry &amp; Manufacturing Services Provider Institutions. Suitable For Factory, Manufacturing, Industry, Engineering, Construction And Any Related Industry Care Field.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="blog-item">
+                            <div class="img-box">
+                                <a href="02_blog.html" class="open-post">
+                                    <img class="img-fluid" src="assets/images/blog/01_blog.jpg" alt="01 Blog">
+                                </a>
+                                <ul>
+                                    <li><a href="02_blog.html">Oil &amp; Gas</a></li>
+                                    <li><a href="02_blog.html">,</a></li>
+                                    <li><a href="02_blog.html">Insights</a></li>
+                                </ul>
+                            </div>
+                            <div class="text-box">
+                                <a href="02_blog.html" class="title-blog">
+                                    <h5>Importance of specialized foucus in portfolio oil &amp; gas</h5>
+                                </a>
+                                <span class="blog-date">Jan 20, 2022</span>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm tempor incididunt ut labore et dolore magna aliqua...</p>
+                                <a href="02_blog.html" class="btn-1 btn-3 link"><span>Read More</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="blog-item">
+                            <div class="img-box">
+                                <a href="02_blog.html" class="open-post">
+                                    <img class="img-fluid" src="assets/images/blog/02_blog.jpg" alt="02 Blog">
+                                </a>
+                                <ul>
+                                    <li><a href="02_blog.html">Engineering</a></li>
+                                    <li><a href="02_blog.html">,</a></li>
+                                    <li><a href="02_blog.html">Construction</a></li>
+                                </ul>
+                            </div>
+                            <div class="text-box">
+                                <a href="02_blog.html" class="title-blog">
+                                    <h5>how to build a powerful building Construction plan</h5>
+                                </a>
+                                <span class="blog-date">Jan 25, 2022</span>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm tempor incididunt ut labore et dolore magna aliqua...</p>
+                                <a href="02_blog.html" class="btn-1 btn-3 link"><span>Read More</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="blog-item">
+                            <div class="img-box">
+                                <a href="02_blog.html" class="open-post">
+                                    <img class="img-fluid" src="assets/images/blog/03_blog.jpg" alt="03 Blog">
+                                </a>
+                                <ul>
+                                    <li><a href="02_blog.html">industry</a></li>
+                                    <li><a href="02_blog.html">,</a></li>
+                                    <li><a href="02_blog.html">Engineering</a></li>
+                                </ul>
+                            </div>
+                            <div class="text-box">
+                                <a href="02_blog.html" class="title-blog">
+                                    <h5>we are designing industry materials of innovation</h5>
+                                </a>
+                                <span class="blog-date">Jan 30, 2022</span>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm tempor incididunt ut labore et dolore magna aliqua...</p>
+                                <a href="02_blog.html" class="btn-1 btn-3 link"><span>Read More</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        {%endblock%}
+        
